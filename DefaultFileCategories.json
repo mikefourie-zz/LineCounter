@@ -1,7 +1,7 @@
 ﻿[
 {"Include":true,"Category":"Azure","FileTypes":".csdef,.cscfg,.azurePubxml","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
 {"Include":true,"Category":"Batch","FileTypes":".cmd,.bat","SingleLineComment":"REM", "MultilineCommentStart":"", "MultilineCommentEnd":""},
-{"Include":true,"Category":"C#","FileTypes":".cs","NameExclusions":".designer", "SingleLineComment":"//", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
+{"Include":true,"Category":"C#","FileTypes":".cs","NameExclusions":"", "SingleLineComment":"//", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
 {"Include":true,"Category":"C++","FileTypes":".h,.cpp,.idl,.rc,.rgs,.mc,.c,.hpp","SingleLineComment":"//", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
 {"Include":true,"Category":"Java","FileTypes":".java","SingleLineComment":"//", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
 {"Include":true,"Category":"JSON","FileTypes":".json","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
