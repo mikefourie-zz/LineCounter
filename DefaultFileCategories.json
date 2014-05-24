@@ -1,19 +1,21 @@
 ﻿[
 {"Include":true,"Category":"Azure","FileTypes":".csdef,.cscfg,.azurePubxml","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
 {"Include":true,"Category":"Batch","FileTypes":".cmd,.bat","SingleLineComment":"REM", "MultilineCommentStart":"", "MultilineCommentEnd":""},
+{"Include":true,"Category":"Coffee","FileTypes":".coffee","NameExclusions":"", "SingleLineComment":"#", "MultilineCommentStart":"", "MultilineCommentEnd":""},
 {"Include":true,"Category":"C#","FileTypes":".cs","NameExclusions":"", "SingleLineComment":"//", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
-{"Include":true,"Category":"C++","FileTypes":".h,.cpp,.idl,.rc,.rgs,.mc,.c,.hpp","SingleLineComment":"//", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
+{"Include":true,"Category":"C++","FileTypes":".h,.cpp,.idl,.rc,.rgs,.mc,.c,.hpp,.m","SingleLineComment":"//", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
 {"Include":true,"Category":"Java","FileTypes":".java","SingleLineComment":"//", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
 {"Include":true,"Category":"JSON","FileTypes":".json","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
+{"Include":true,"Category":"Markdown","FileTypes":".md","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
 {"Include":true,"Category":"Nuget","FileTypes":".nuspec","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
-{"Include":true,"Category":"PowerShell","FileTypes":".ps1,.ps1xml,.psm1","SingleLineComment":"#", "MultilineCommentStart":"<#", "MultilineCommentEnd":"#>"},
-{"Include":true,"Category":"Projects","FileTypes":".sqlproj,.csproj,.ccproj,.vcproj,.vcxproj,.pbxproj,.pyproj,.rptproj,.wixproj","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
+{"Include":true,"Category":"PowerShell","FileTypes":".ps1,.ps1xml,.psm1,.psd1","SingleLineComment":"#", "MultilineCommentStart":"<#", "MultilineCommentEnd":"#>"},
+{"Include":true,"Category":"Projects","FileTypes":".sqlproj,.csproj,.ccproj,.vcproj,.vcxproj,.pbxproj,.pyproj,.rptproj,.wixproj,.project,.jsproj","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
 {"Include":true,"Category":"Python","FileTypes":".py", "SingleLineComment":"#", "MultilineCommentStart":"", "MultilineCommentEnd":""},
 {"Include":true,"Category":"SQL","FileTypes":".hql,.sql,.udf,.prc","SingleLineComment":"--", "MultilineCommentStart":"/*", "MultilineCommentEnd":"*/"},
 {"Include":true,"Category":"Text","FileTypes":".csv,.txt,.log","SingleLineComment":"", "MultilineCommentStart":"", "MultilineCommentEnd":""},
 {"Include":true,"Category":"TypeScript","FileTypes":".ts", "SingleLineComment":"//", "MultilineCommentStart":"/**", "MultilineCommentEnd":"*/"},
 {"Include":true,"Category":"VB","FileTypes":".vb,.vbs","SingleLineComment":"'", "MultilineCommentStart":"", "MultilineCommentEnd":""},
-{"Include":true,"Category":"WEB","FileTypes":".svc,.php,.asp,.aspx,.ascx,.asmx,.cshtml,.xhtml,.htm,.html,.js,.css,.master,.asax,.wsdl,.disco,.tt","SingleLineComment":"", "MultilineCommentStart":"<!--", "MultilineCommentEnd":"-->"},
+{"Include":true,"Category":"WEB","FileTypes":".svc,.php,.asp,.aspx,.ascx,.asmx,.cshtml,.xhtml,.htm,.html,.js,.css,.master,.asax,.wsdl,.disco,.tt,.less","SingleLineComment":"", "MultilineCommentStart":"<!--", "MultilineCommentEnd":"-->"},
 {"Include":true,"Category":"Wix","FileTypes":".wxs","SingleLineComment":"", "MultilineCommentStart":"<!--", "MultilineCommentEnd":"-->"},
-{"Include":true,"Category":"XML","FileTypes":".vsixmanifest,.testsettings,.resx,.kht,.xml,.xsd,.xsl,.xslt,.xht,.proj,.config,.testrunconfig,.wsdl,.xaml,.targets,.tasks,.properties","SingleLineComment":"", "MultilineCommentStart":"<!--", "MultilineCommentEnd":"-->"}
+{"Include":true,"Category":"XML","FileTypes":".vsixmanifest,.testsettings,.resx,.kht,.xml,.xsd,.xsl,.xslt,.xht,.proj,.config,.testrunconfig,.wsdl,.xaml,.targets,.tasks,.properties,.aml,.plist","SingleLineComment":"", "MultilineCommentStart":"<!--", "MultilineCommentEnd":"-->"}
 ]
