@@ -4,7 +4,6 @@
 namespace LineCounter
 {
     using System;
-    using System.Diagnostics;
     using System.IO;
     using System.Windows;
     using System.Windows.Forms;
@@ -86,6 +85,11 @@ namespace LineCounter
             {
                 this.txtPath.Text = folderBrowserDialog1.SelectedPath;
             }
+        }
+
+        private void BtnCsvExportResults_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.ctrlLineCounter.ExportToCsv();
         }
 
         private void RibbonWindow_Loaded(object sender, RoutedEventArgs e)

@@ -1,11 +1,9 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="App.xaml.cs" company="FreeToDev"> (c) Mike Fourie. All other rights reserved.</copyright>
 // --------------------------------------------------------------------------------------------------------------------
-
-using System.Globalization;
-
 namespace LineCounter
 {
+    using System.Globalization;
     using System.Windows;
 
     /// <summary>
