@@ -23,7 +23,7 @@ namespace LineCounter.UserControls
     {
         private MainWindow parentWindow;
         private string path;
-        private List<CsvFile> csvFiles = new List<CsvFile>(); 
+        private List<CsvFile> csvFiles;
         private ObservableCollection<FileCategory> cats = new ObservableCollection<FileCategory>();
         private ObservableCollection<FileReport> reportedFiles = new ObservableCollection<FileReport>();
         private ObservableCollection<IgnoredFile> ignoredFiles = new ObservableCollection<IgnoredFile>();
@@ -152,7 +152,7 @@ namespace LineCounter.UserControls
             string rootPath = this.path.Replace("*", string.Empty);
             DirectoryInfo dir = new DirectoryInfo(rootPath);
             this.foundFiles = dir.GetFiles("*", this.recursiveSearch).Where(x => (x.Attributes & FileAttributes.Hidden) == 0);
-
+            this.csvFiles = new List<CsvFile>(this.foundFiles.Count());
             this.largerThan = !string.IsNullOrWhiteSpace(this.parentWindow.cboLargerThan.Text) ? Convert.ToDouble(this.parentWindow.cboLargerThan.Text, CultureInfo.CurrentCulture) : 0;
             this.smallerThan = !string.IsNullOrWhiteSpace(this.parentWindow.cboSmallerThan.Text) ? Convert.ToDouble(this.parentWindow.cboSmallerThan.Text, CultureInfo.CurrentCulture) : 0;
 

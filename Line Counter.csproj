@@ -34,7 +34,7 @@
     <ProductName>Line Counter</ProductName>
     <PublisherName>Mike Fourie</PublisherName>
     <SuiteName>Line Counter</SuiteName>
-    <MinimumRequiredVersion>1.0.0.12</MinimumRequiredVersion>
+    <MinimumRequiredVersion>1.0.0.13</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>Install.htm</WebPage>
     <ApplicationRevision>13</ApplicationRevision>
