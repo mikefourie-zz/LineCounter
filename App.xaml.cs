@@ -25,7 +25,7 @@ namespace LineCounter
             }
 
             string errorMessage = string.Format(CultureInfo.CurrentCulture, "{0}. Please report this error", exception);
-            MessageBox.Show(errorMessage, "Sorry, this was not meant to happen.", MessageBoxButton.OK, MessageBoxImage.Error);
+            MessageBox.Show(errorMessage.Substring(0, 500), "Sorry, this was not meant to happen.", MessageBoxButton.OK, MessageBoxImage.Error);
             e.Handled = true;
         }
     }

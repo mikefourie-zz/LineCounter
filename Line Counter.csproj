@@ -34,10 +34,10 @@
     <ProductName>Line Counter</ProductName>
     <PublisherName>Mike Fourie</PublisherName>
     <SuiteName>Line Counter</SuiteName>
-    <MinimumRequiredVersion>1.0.0.10</MinimumRequiredVersion>
+    <MinimumRequiredVersion>1.0.0.12</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>Install.htm</WebPage>
-    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationRevision>13</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
