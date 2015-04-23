@@ -17,7 +17,7 @@
         </Fluent:RibbonGroupBox>
         <Fluent:RibbonGroupBox Header="Path">
           <Fluent:TextBox Name="txtPath" Text="" Width="300"/>
-          <Fluent:Button Header="Browse" Name="btnBrowse" Click="BtnBrowse_OnClick" Icon="/LineCounter;component/Images/Browse.png"  Fluent:RibbonAttachedProperties.RibbonSizeDefinition="Middle" Cursor="Hand" />
+          <Fluent:Button Header="Browse" Name="btnBrowse" Click="BtnBrowse_OnClick" Icon="/LineCounter;component/Images/Browse.png" Cursor="Hand" />
           <Fluent:CheckBox x:Name="chkRecursive" Header="Recursive Search" IsChecked="True" Cursor="Hand" />
         </Fluent:RibbonGroupBox>
         <Fluent:RibbonGroupBox Header="Global Name Exclusions">
